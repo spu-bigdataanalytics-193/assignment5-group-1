@@ -5,7 +5,7 @@ Sentiment analysis studies the subjective information in an expression, that is,
 Here we are doing a sentimental analysis on Amazon reviews meta deta(Arts, Crafts and Sewing Dataset).
 In order to perform Sentimental Anlysis here we are going to discuss what are the necessary steps required:
 
-Tool used: Google Coolabe
+Tool used: Google Coolab
 
 1.) Creating a spark environment in Google Colab and installing pyspark.
 
