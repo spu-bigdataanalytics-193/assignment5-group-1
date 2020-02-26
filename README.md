@@ -39,6 +39,8 @@ import os
 os.environ["JAVA_HOME"] = "/usr/lib/jvm/java-8-openjdk-amd64"
 os.environ["SPARK_HOME"] = "/content/spark-2.4.5-bin-hadoop2.7"
 
+## LET'S LOOK AT THE TASKS IN EACH SECTION OF OUR PROJECT
+
 1.) Doing an Exploratory Data Analysis where we have performed several tasks like:
       - Extracting data into colab, reading the data and understanding the basic information like columns, datatypes, finding         null values
       Three steps we used in EDA are:
