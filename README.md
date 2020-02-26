@@ -10,16 +10,18 @@ Creating a spark environment in Google Colab and installing pyspark.
 
 # How to run the project
 
-#1. Run EDA.ipynb. 
+# 1. Run EDA.ipynb. 
 There are instructions to set up the spark environment so that you can run Spark using Google Colab's Jupyter Notebook. 
 
-#2. Run EDA.ipynb. 
+# 2. Run EDA.ipynb. 
 It includes all the data preprocessing part of the project. Before performing machine learning models, preprocessing is a necessary step. 
 
-#3. Run Ml and NLP Sentiment Analysis and Cross Validation
+# 3. Run Ml and NLP Sentiment Analysis and Cross Validation
 You can perform sentiment analysis on the text and it includes all the machine learning codes. It includes codes to run TF-IDF model, Logistic Regression.
 
 It also include codes to Validate the model and to improve accuracy of the model. 
+
+------------------------------------------------------------------------------------------------------------------------------
 
 1.) Doing an Exploratory Data Analysis where we have performed several tasks like:
       - Extracting data into colab, reading the data and understanding the basic information like columns, datatypes, finding         null values
