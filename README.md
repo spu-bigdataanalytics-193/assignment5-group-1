@@ -23,6 +23,22 @@ It also include codes to Validate the model and to improve accuracy of the model
 
 ------------------------------------------------------------------------------------------------------------------------------
 
+
+# ENVIRONMENT SETUP
+
+## Run the following code to setup spark environment to run spark in Google Colab's notebooks
+
+## Currently the lastest version availabe is spark-2.4.5. We can check this online to see the lastest version of spark availabe and make the necessary changes.
+
+!apt-get install openjdk-8-jdk-headless -qq > /dev/null
+!wget -q https://www-us.apache.org/dist/spark/spark-2.4.5/spark-2.4.5-bin-hadoop2.7.tgz
+!tar xf spark-2.4.5-bin-hadoop2.7.tgz
+!pip install -q findspark
+
+import os
+os.environ["JAVA_HOME"] = "/usr/lib/jvm/java-8-openjdk-amd64"
+os.environ["SPARK_HOME"] = "/content/spark-2.4.5-bin-hadoop2.7"
+
 1.) Doing an Exploratory Data Analysis where we have performed several tasks like:
       - Extracting data into colab, reading the data and understanding the basic information like columns, datatypes, finding         null values
       Three steps we used in EDA are:
