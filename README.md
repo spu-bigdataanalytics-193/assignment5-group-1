@@ -30,7 +30,7 @@ Creating a spark environment in Google Colab and installing pyspark.
       c.) Removing stopwords
 
 3) Machine Learning
-In this part, we created  X and y matrices and apply some algorihms to do NLP tasks.
+In this part, we created  X and y matrices and apply some algorithms to do NLP tasks.
 In order to do that,we created TF-IDF matrix.
 Then trained a basic Logistic Regression Model for Prediction
 Last step was to create pipeline.
@@ -42,4 +42,4 @@ In the step the trained model and pipeline was tested on data that the model we 
 
 
 5. Testing
-At the final part,we used our model to output some results. We performed the sentimental analysis.We tried traning and testing the reviews at the end
+At the final part,we used our model to output some results. We performed the sentimental analysis.We tried traning and testing the reviews at the end.
